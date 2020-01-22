@@ -13,7 +13,7 @@ end
 
 def assign_rooms(array)
   arrays =[]
-  room = 0
+  room = 1
   array.each do |name|
     arrays << "Hello, #{name}! You'll be assigned to room #{room}!"
     room += 1

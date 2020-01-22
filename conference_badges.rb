@@ -11,5 +11,13 @@ def batch_badge_creator(array)
   return arrays
 end
 
+def (array)
+  arrays =[]
+  array.each do |name|
+    arrays << "Hello, my name is #{name}."
+  end
+  return arrays
+end
+
 
       
